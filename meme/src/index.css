@@ -33,7 +33,9 @@ code {
 }
 .inputs {
   padding: 40px 30px;
-  display: flexbox;
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 7px;
   align-items: center;
 
 }
@@ -41,11 +43,14 @@ code {
   border: none;
   border-bottom: 2px solid red;
   border: 3px solid #555;
-  width: 100px;
+  width: 400px;
 }
 .meme-text:focus{
   border: none;
   border-bottom: 2px solid red;
   border: 3px solid #555;
  
+}
+.meme-button {
+  grid-column: 1 / -1;
 }
