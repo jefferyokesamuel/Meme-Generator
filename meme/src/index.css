@@ -57,6 +57,8 @@ code {
 }
 .meme-button {
   grid-column: 1 / -1;
-  border-radius: 5px;
-  
+  border-radius: 1px;
+  height: 20px;
+  text-align: center;
+  padding: 15px 32px;
 }
