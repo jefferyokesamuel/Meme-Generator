@@ -1,7 +1,11 @@
 import React from 'react';
+import troll from './sasuke-troll.png'
 
 export default function Header() {
     return (
-        <h1>Header</h1>
+        <header>
+            <img src={troll}/>
+            <h1>Header</h1>
+        </header>
     )
 }
