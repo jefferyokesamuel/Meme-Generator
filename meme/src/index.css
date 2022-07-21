@@ -31,7 +31,7 @@ code {
   font-size: .75rem;
   font-weight: 500;
 }
-.inputs {
+.form {
   padding: 40px 30px;
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
