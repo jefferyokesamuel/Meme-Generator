@@ -3,9 +3,10 @@ import memes from "./Memedata"
 
 export default function Meme() {
     function getAddress () {
-        let randNum = Math.floor(Math.random() * memes.length);
-
-        console.log(memes.img(randNum))
+        const memesData = memes.data.memes
+        let randNum = Math.floor(Math.random() * memesData.length);
+        const url = memesData[randNum].url
+        console.log(url)
     }
     return (
         <div className="form">
