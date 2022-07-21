@@ -44,8 +44,8 @@ code {
 }
 .meme-text{
   font-family: "Karla", sans-serif;
-  border: none;
-  border-bottom: 2px solid red;
+  font-size: 30px;
+  border: 1px solid #D5D4D8;
   width: 400px;
   border-radius: 5px;
 }
@@ -60,5 +60,9 @@ code {
   border-radius: 1px;
   height: 20px;
   text-align: center;
-  padding: 15px 32px;
+  max-width: 1000px;
+  height: 18px;
+  background: tomato;
+  border: none;
+  cursor: pointer;
 }
