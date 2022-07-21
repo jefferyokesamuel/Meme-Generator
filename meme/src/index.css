@@ -31,3 +31,8 @@ code {
   font-size: .75rem;
   font-weight: 500;
 }
+.inputs {
+  padding: 40px 30px;
+  display: flexbox;
+  align-items: center;
+}
