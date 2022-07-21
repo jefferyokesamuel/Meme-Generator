@@ -14,6 +14,20 @@ code {
 .header {
   display: flex;
   align-items: center;
-  background-color: aquamarine;
+  background-color: #800116;
   height: 65px;
+  color: white;
+}
+.troll {
+  max-width: 70px;
+  height: 70px;
+  margin-left: 6px;
+}
+.header-title {
+  font-size: 1.25rem;
+  margin-right: auto;
+}
+.header-text {
+  font-size: .75rem;
+  font-weight: 500;
 }
