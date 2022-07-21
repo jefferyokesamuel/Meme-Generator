@@ -39,18 +39,21 @@ code {
   align-items: center;
 
 }
+.main {
+  padding: 36px;
+}
 .meme-text{
+  font-family: "Karla", sans-serif;
   border: none;
   border-bottom: 2px solid red;
-  border: 3px solid #555;
   width: 400px;
 }
 .meme-text:focus{
   border: none;
   border-bottom: 2px solid red;
-  border: 3px solid #555;
  
 }
 .meme-button {
   grid-column: 1 / -1;
+  
 }
