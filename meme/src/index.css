@@ -66,3 +66,7 @@ code {
   border: none;
   cursor: pointer;
 }
+.meme-picture {
+  background-url: "https:\/\/i.imgflip.com\/1g8my4.jpg";
+  background: url("https:\/\/i.imgflip.com\/1g8my4.jpg");
+}

@@ -18,9 +18,9 @@ export default function Meme() {
 
             <form className="inputs">
                 
-                <button className="meme-button" onClick={getAddress}>Get A New Meme Image</button>
+                <button className="meme-button" onClick={getAddress }>Get A New Meme Image</button>
             </form>
-            <img src={memeImage}/>
+            <img src={memeImage} className="meme-picture"/>
         </div>
     )
 }
