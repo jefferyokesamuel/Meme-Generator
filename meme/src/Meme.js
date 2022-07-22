@@ -2,10 +2,13 @@ import React from "react";
 import memes from "./Memedata"
 
 export default function Meme() {
+    const[urll, setUrl] = React.setState('o')
     function getAddress () {
         const memesData = memes.data.memes
         let randNum = Math.floor(Math.random() * memesData.length);
+      
         const url = memesData[randNum].url
+        setUrl()
         console.log(url)
     }
     return (
